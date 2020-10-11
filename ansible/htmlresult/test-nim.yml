@@ -1,0 +1,20 @@
+---
+- name: SElinux sshd
+  hosts: all
+  tasks:
+   - name: enable SElinux on the target machines
+     selinux:
+        policy: targeted
+        state: enforcing
+   - name: check selinx status for the machines
+     command: /usr/sbin/getenforce
+     register: result
+   - name: display the result results to terminal
+     debug:
+       var: result
+   - name: check sshd
+     command: systemctl is-active sshd
+     register: status
+   - name: display the staus
+     debug:
+       var: status

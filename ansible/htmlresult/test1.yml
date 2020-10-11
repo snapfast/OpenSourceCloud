@@ -1,0 +1,21 @@
+- hosts: localhost
+  name: "Getting varibles from HTML"
+  vars:
+   result: {}
+  tasks:
+  - name: "Getting content of the file"
+    command: cat one.html
+    register: search
+  - name: "Creating dictionary while Looping over file"
+    ignore_errors: true
+    vars:
+     key: "{{item | replace('<div class=\"product-title\">','') | replace('</div>','') | regex_replace('<div.*','') | regex_replace('^\\s*','')}}"
+     value: "{{item | replace('<div class=\"product-title\">','') | replace('</div>','') | regex_replace('^[\\w\\s\\:]*','') | replace('<div class=\"product-value\">','') | regex_replace('\\s*$','')}}" 
+    set_fact:
+     result: "{{ result | combine( { key: value } ) }}"
+    when: "'product-title' in item"
+    with_items: "{{search.stdout_lines}}"
+  - name: "Getting register"
+    debug:
+     msg: "{{result}}"
+
