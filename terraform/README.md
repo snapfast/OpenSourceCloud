@@ -33,8 +33,9 @@ terraform show -json
 
 
 terraform graph
+```
 > use the graphviz https://webgraphviz.com
-
+```
 terraform apply
 
 terraform apply out.plan
