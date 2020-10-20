@@ -1,5 +1,5 @@
 import ansible_runner
-r = ansible_runner.run(private_data_dir='tmp', playbook='/home/nimish/rahulbali/test-nim.yml')
+r = ansible_runner.run(private_data_dir='tmp', playbook='/home/nightshade/OpenSourceCloud/ansible/htmlresult/test-nim.yml')
 print("{}: {}".format(r.status, r.rc))
 # successful: 0
 
