@@ -35,12 +35,16 @@ aws ec2 create-internet-gateway
 aws ec2 attach-internet-gateway --vpc-id vpc-xxxxx --internet-gateway-id idw-xxx
 aws ec2 create-route-table --vpc-id vpc-xxxxx
 aws ec2 create-route --route-table-id rtb-xxx --destination-cidr-block 0.0.0.0/0 --gateway-id igw-xxx
+
 # confirmation
 aws ec2 describe-route-tables --route-table-id rtb-xxx
+
 # search subnets using queries and filters
 aws ec2 describe-subnets --filters "Name=vpc-id,Values=vpc-xxx" --query 'Subnets[*].{ID:SubnetId,CIDR:CidrBlock}'
+
 # associate subnet with route table
 aws ec2 associate-route-table --subnet-id subnet-xxx --route-table-id rtb-xxx
+
 # automatically assign public ip on instance launch
 aws ec2 modify-subnet-attribute --subnet-id subnet-xxx --map-public-ip-on-launch
 ```
