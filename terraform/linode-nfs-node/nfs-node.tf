@@ -34,7 +34,7 @@ resource "linode_instance" "network-file-system" {
       "sudo systemctl status nfs-server.service --no-pager",
       "sudo mkdir -p /srv/nfs/kubedata",
       "sudo chmod -R 777 /srv/nfs",
-      "echo '/srv/nfs/kubedata  172.104.0.0/16(rw,sync,no_subtree_check,insecure)' >> /etc/exports",
+      "echo '/srv/nfs/kubedata  *(rw,sync,no_subtree_check,insecure)' >> /etc/exports",
       "sudo exportfs -rav",
       "sudo exportfs -v",
       "showmount -e",
