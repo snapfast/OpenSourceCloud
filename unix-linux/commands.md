@@ -16,6 +16,26 @@ groups of system
 list block devices
 `lsblk`
 
+info commands
+```
+man
+info
+man -k 'search words'
+```
+
+```
+
+repoquery
+rpm -ua <>
+rpm -ul 'search word related services'
+
+top
+top -M
+
+
+```
+
+
 
 ufw - program for managing a netfilter firewall
 ```
