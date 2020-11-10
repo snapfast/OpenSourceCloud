@@ -33,11 +33,18 @@ resource "linode_instance" "network-file-system" {
       "sudo systemctl enable nfs-server.service",
       "sudo systemctl status nfs-server.service --no-pager",
       "sudo mkdir -p /srv/nfs/kubedata",
-      "sudo chmod -R 777 /srv/nfs",
-      "echo '/srv/nfs/kubedata  *(rw,sync,no_subtree_check,insecure)' >> /etc/exports",
+      "sudo touch /srv/nfs/kubedata/rahul_test",
+      "sudo chown -R nobody: /srv/nfs/kubedata",
+      "sudo chmod -R 777 /srv/nfs/kubedata",
+      "echo '/srv/nfs/kubedata  *(rw,sync,no_all_squash,root_squash,no_subtree_check)' >> /etc/exports",
       "sudo exportfs -rav",
-      "sudo exportfs -v",
+      "sudo exportfs -s",
       "showmount -e",
+      "sudo systemctl restart nfs-utils.service",
+      "sudo firewall-cmd --add-service=nfs --permanent",
+      "sudo firewall-cmd --add-service={nfs3,mountd,rpc-bind} --permanent",
+      "sudo firewall-cmd --reload",
+      "sudo setsebool -P nfs_export_all_rw 1"
     ]
     connection {
       type     = "ssh"

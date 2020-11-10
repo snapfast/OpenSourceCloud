@@ -5,11 +5,17 @@ metadata:
   labels:
     type: local
 spec:
-  storageClassName: manual
+  # storageClassName: manual
   capacity:
-    storage: 1Gi
+    storage: 2Gi
+  volumeMode: Filesystem
   accessModes:
     - ReadWriteMany
+  persistentVolumeReclaimPolicy: Recycle
+  storageClassName: nfs
+  mountOptions:
+    - hard
+    - nfsvers=4.1
   nfs:
-    server: 172.104.206.107
+    server: 172.104.206.10
     path: "/srv/nfs/kubedata"

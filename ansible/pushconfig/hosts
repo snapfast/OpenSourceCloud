@@ -1,0 +1,9 @@
+172.105.33.174
+45.79.126.30
+45.79.120.89
+172.105.61.192
+
+[all:vars]
+ansible_connection=ssh
+ansible_user=root
+ansible_ssh_pass=yfQ9s4fgd7qu

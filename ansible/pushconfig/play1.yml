@@ -1,0 +1,15 @@
+---
+- name: Install nfs client necessary binaries
+  hosts: all
+  tasks:
+  - name: check nfsutils
+    shell:
+      cmd: |
+        apt update -y
+        apt install nfs-common -y
+        echo "172.104.206.10 /srv/nfs/kubedata /mnt/remotenfs nfs rw,async,hard,intr,noexec 0 0" >> /etc/fstab
+        cat /etc/fstab
+        exit 0
+    register: stat
+  - debug:
+      var: stat.stdout
