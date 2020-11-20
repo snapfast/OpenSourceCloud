@@ -8,7 +8,7 @@ Features:
 - One VPC can be across the multiple AZ in a region.
 - 5 VPC, and 200 subnets per VPC
 - Public subnet EC2 machine has internet access.
-- NAT gateway is managed service. NAT instance is you have to manage.
+- NAT gateway is managed service. NAT instance is you have to manage yourself.
 - Network ACL is on the subnet level. Security Group applied at instance level.
 
 ---
@@ -61,5 +61,9 @@ aws ec2 create-route --route-table-id rtb-xxx --destination-cidr-block 0.0.0.0/0
 ```
 
 
+
+Some points to consider:
+- VPC cannot be deleted directly, you need to delete the NAT gateway and route tables.
+- Also, remove the elastic IP associated with NAT gateway to make it public.
 
 
