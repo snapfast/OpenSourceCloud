@@ -2,7 +2,7 @@
 #### speak about sales, business and technical side.
 
 - try to cross-over your talk across the knowledge space about the cloud.
-
+---
 business side
 - talk about retail companies, security, ease of use, cost management and structure, flexibilty, hybrid/multi cloud solutions, performance
 
@@ -11,7 +11,7 @@ technical side
 
 middle later
 - security, DC footprint, open source use, Anthos(unique product)
-
+---
 
 - cloud framework--strategy for GCP, create a generic strategy for talking to CFO, CTO, keeping in mind to ask goals objectives, history, risk ability of the organization, budget, timeline, resources, scope and scale, who are the actual key stakeholders. customer based questions.
 - industry of the customer; which model they use, utilization of the services, IAAS, FAAS, CAAS, PAAS, SaaS. It depends on the clients needs and current environment they use.
