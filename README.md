@@ -1,6 +1,4 @@
-Production ready in Kubernetes
-
-(gcp/)[GCP]
+# Production ready in Kubernetes
 
 Securing the API, k8s cluster
  - use namespaces
