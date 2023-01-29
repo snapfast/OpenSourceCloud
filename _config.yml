@@ -3,6 +3,4 @@ description: Readup for cloud people to enjoy.
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-hacker
-- name: generate-sitemap
-  uses: cicirello/generate-sitemap@v1.9.1
 
