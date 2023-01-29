@@ -1,4 +1,4 @@
-# TERRAFORM WORKS
+# Terraform Works
 
 - Infrastructure as Code (Static Plan)
 - Execution Plan (plan before action)
@@ -7,7 +7,7 @@
 - Each node is a resource, some internal, some from cloud provider.
 
 
-# TERRAFORM GENERIC COMMANDS
+# Terraform Generic Commands
 
 ```
 terraform init
@@ -48,8 +48,8 @@ terraform apply out.plan
 
 > if the state has been changed after the plan was created, the plan becomes stale for future use.
 
-
 `terraform apply -auto-approve`
+
 > careful!! use cautiously. it does not output anything.
 
 
