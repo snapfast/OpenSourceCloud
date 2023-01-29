@@ -1,7 +1,14 @@
 # Production ready in Kubernetes
 
-[Google cloud Platform](/OpenSourceCloud/gcp)
-[Interview Talk](/OpenSourceCloud/gcp/interview-talk)
+[Ansible](/OpenSourceCloud/ansible)  
+[AWS](/OpenSourceCloud/aws)  
+[Content Delivery Network](/OpenSourceCloud/cdn)  
+[CKA - Kubernetes](/OpenSourceCloud/gcp/interview-talk)  
+[Google Cloud Platform](/OpenSourceCloud/gcp)   
+[Kubernetes](/OpenSourceCloud/kubernetes)  
+[Terraform](/OpenSourceCloud/terraform)  
+[Unix Linux](/OpenSourceCloud/unix-linux)  
+
 
 Securing the API, k8s cluster
  - use namespaces
