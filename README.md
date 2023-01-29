@@ -23,6 +23,6 @@ Securing the API, k8s cluster
  - use a datastore for failover data replication across regions like CosmosDB, CloudStorage(gcp)
 
 
-[Interview Talk](/OpenSourceCloud/gcp/interview-talk)  
+[Interview Talk](/OpenSourceCloud/interview-talk)  
 [Video about DevOps](https://www.youtube.com/watch?v=0vSKgTGmfUY)
 
