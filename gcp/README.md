@@ -1,4 +1,4 @@
-## Bullets
+# Google Cloud Platform
 
 #### Instances
 - Every instance stores its metadata on a metadata server.

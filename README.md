@@ -1,5 +1,7 @@
 Production ready in Kubernetes
 
+(gcp/)[GCP]
+
 Securing the API, k8s cluster
  - use namespaces
  - RBAC
