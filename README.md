@@ -1,5 +1,8 @@
 # Production ready in Kubernetes
 
+[Google cloud Platform](/OpenSourceCloud/gcp)
+[Interview Talk](/OpenSourceCloud/gcp/interview-talk)
+
 Securing the API, k8s cluster
  - use namespaces
  - RBAC
