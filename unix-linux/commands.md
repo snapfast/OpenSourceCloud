@@ -7,10 +7,10 @@ this is the first thing that executes when a system runs.
 systemd is a software suite that provides an array of system components for Linux operating systems.
 systemd-resolved is service running for handling local dns caching on linux machines.
 
-users of system
+users of system  
 `cat /etc/passwd`
 
-groups of system
+groups of system  
 `cat /etc/group`
 
 list block devices
@@ -70,19 +70,19 @@ It goes to Root servers . These servers help resolve the DN. There are 13 server
 It sends the resolver to the TLD server (top level domain server). TLD server stores the informations about the Authoritrative name servers. TLD servers responds with a Authoritative named server. Resolvers will get the IP address  from the ANS server. ISP DNS server stores the result upon the successful resolution of DN.
 
 
-troubleshooting --
+> troubleshooting --
 login to a machine -- seeing unknown process name -- how do you approach ?
-htop - files/ resource usage
+
+`htop` - files/ resource usage
 find its binary and configuration
 what is it doing in the proc
 
 
-
+find processes which have open files in the system.
+```
 fuser
 lsof
-- find processes which have open files in the system.
-
-
+```
 
 
 ---
@@ -94,33 +94,40 @@ ip addr show
 ```
 
 Network Management IP Tables
+
 `ip route`
 
 
 Kernel version and release
+
 `uname -a`
 
 
-
 Detail about your system operating system
+
 `cat /etc/*release`
+
 `neofetch     ## can be installed on most OS`
 
 
 Check Disk usage
+
 `df -ah`
 
 
 Check Size of a directory
+
 `du -sh <directory name>`
 
 
 Check running services, manage
+
 `service <name> status`
 `systemctl status <name>`
 
 
 Check for Open ports / Listening sockets / Network Sockets
+
 `netstat`
 `netstat -tupln    ## execute as root to see the program name of the listening ports`
 
@@ -139,6 +146,7 @@ less /etc/fstab   ## mount of the disks on boot
 
 
 Copy files from/to remote host
+
 ```
 rsync -av [USER@]HOST::SRC... [DEST]                ## copy file from remote host
 rsync -av rsync://[USER@]HOST[:PORT]/SRC... [DEST]  ## send file to remote host (copy)
@@ -151,6 +159,7 @@ fuser
 ```
 
 Network details for sockets
+
 `ss`
 
 
