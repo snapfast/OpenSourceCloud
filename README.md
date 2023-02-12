@@ -5,6 +5,7 @@
 [Content Delivery Network](cdn)  
 [CKA - Kubernetes](gcp/interview-talk)  
 [Google Cloud Platform](gcp)   
+[Monitoring](monitoring)   
 [Kubernetes](kubernetes)  
 [Terraform](terraform)  
 [Unix Linux](unix-linux)  
