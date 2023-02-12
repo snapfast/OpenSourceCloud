@@ -1,13 +1,13 @@
 # Production ready in Kubernetes
 
 [Ansible](ansible)  
-[AWS](/OpenSourceCloud/aws)  
-[Content Delivery Network](/OpenSourceCloud/cdn)  
-[CKA - Kubernetes](/OpenSourceCloud/gcp/interview-talk)  
+[AWS](aws)  
+[Content Delivery Network](cdn)  
+[CKA - Kubernetes](gcp/interview-talk)  
 [Google Cloud Platform](gcp)   
-[Kubernetes](/OpenSourceCloud/kubernetes)  
-[Terraform](/OpenSourceCloud/terraform)  
-[Unix Linux](/OpenSourceCloud/unix-linux)  
+[Kubernetes](kubernetes)  
+[Terraform](terraform)  
+[Unix Linux](unix-linux)  
 
 
 Securing the API, k8s cluster
