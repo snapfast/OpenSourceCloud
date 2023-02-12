@@ -32,10 +32,7 @@ For simulating the client app.
 
 Read More...  
 
-(https://kubernetes.io/docs/concepts/)
-
-https://kubernetes.io/docs/concepts/
-
+[https://kubernetes.io/docs/concepts/](https://kubernetes.io/docs/concepts/){.external}
 
 
 
