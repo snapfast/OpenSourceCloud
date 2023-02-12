@@ -1,10 +1,10 @@
 # Production ready in Kubernetes
 
-[Ansible](/OpenSourceCloud/ansible)  
+[Ansible](ansible)  
 [AWS](/OpenSourceCloud/aws)  
 [Content Delivery Network](/OpenSourceCloud/cdn)  
 [CKA - Kubernetes](/OpenSourceCloud/gcp/interview-talk)  
-[Google Cloud Platform](/OpenSourceCloud/gcp)   
+[Google Cloud Platform](gcp)   
 [Kubernetes](/OpenSourceCloud/kubernetes)  
 [Terraform](/OpenSourceCloud/terraform)  
 [Unix Linux](/OpenSourceCloud/unix-linux)  
