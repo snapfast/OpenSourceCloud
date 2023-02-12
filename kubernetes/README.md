@@ -2,10 +2,10 @@
 
 [Ingress](ingress)  
 [Prometheus and Grafana](prometheus-grafana)  
-[Stateful Set](statefulset-app)
-[Load Balancer App](load-balancer-app)
-[NFS Persistent Volume](nfs-persistent-volume)
-[Some Deployment YAML](old_files)
+[Stateful Set](statefulset-app)  
+[Load Balancer App](load-balancer-app)  
+[NFS Persistent Volume](nfs-persistent-volume)  
+[Some Deployment YAML](old_files)  
 
 
 ## In Kubernetes
