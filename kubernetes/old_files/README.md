@@ -1,7 +1,7 @@
 # deployment yaml
 
-[ansible-deployment.yaml](ansible-deployment.yaml)  
-(jenkins-deployment.yaml)  
-(jenkins-service.yaml)  
+[ansible-deployment.yml](ansible-deployment.yml)   
+[jenkins-deployment.yml](jenkins-deployment.yml)   
+[jenkins-service.yml](jenkins-service.yml)   
 
 
