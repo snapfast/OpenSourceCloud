@@ -2,7 +2,9 @@
 # Unix and Linux
 
 
-[Commands](/OpenSourceCloud/unix-linux/commands) 
-[Create a Service for a Python App](/OpenSourceCloud/unix-linux/service) 
+[Commands](/cloud_notes/unix-linux/commands)    
+[Create a Service for a Python App](/cloud_notes/unix-linux/service)   
+
+
 
 
