@@ -27,3 +27,4 @@ Securing the API, k8s cluster
 [Interview Talk](/OpenSourceCloud/interview-talk)  
 [Video about DevOps](https://www.youtube.com/watch?v=0vSKgTGmfUY)
 
+[[Edit Repo]](https://github.com/snapfast/cloud_notes)
