@@ -19,4 +19,10 @@
 
 ---
 
+Some links
+
+[Cloudflare CDN Reference Architecture](https://developers.cloudflare.com/reference-architecture/architectures/cdn/)
+
+---
+
 [[Edit Repo]](https://github.com/snapfast/cloud_notes)
