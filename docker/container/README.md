@@ -18,7 +18,12 @@ History of Containers
 Containers are created by the different set of technologies that were created in different timelines in the history.
 
 https://www.redhat.com/en/blog/history-containers
+
 https://www.aquasec.com/blog/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016/
+
+https://www.techtarget.com/searchitoperations/feature/Dive-into-the-decades-long-history-of-container-technology
+
+https://erzeghi.medium.com/yet-another-brief-history-of-container-d-2962eac9679e
 
 
 
