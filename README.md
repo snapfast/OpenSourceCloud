@@ -15,15 +15,15 @@
 ---
 
 [Interview Talk](interview-talk)  
-[a Video about DevOps](https://www.youtube.com/watch?v=0vSKgTGmfUY)
+[a Video about DevOps](https://www.youtube.com/watch?v=0vSKgTGmfUY)  
 
 ---
 
 Some links
 
-[Cloudflare CDN Reference Architecture](https://developers.cloudflare.com/reference-architecture/architectures/cdn/)
-[Online tutorial for Linux administrators, DevOps, SysOps, and any Linux hobbyists.](https://www.youtube.com/@justmeandopensource)
-[Some Cheatsheet Repo](https://github.com/sk3pp3r/cheat-sheet-pdf)
+[Cloudflare CDN Reference Architecture](https://developers.cloudflare.com/reference-architecture/architectures/cdn/)  
+[Online tutorial for Linux administrators, DevOps, SysOps, and any Linux hobbyists.](https://www.youtube.com/@justmeandopensource)  
+[Some Cheatsheet Repo](https://github.com/sk3pp3r/cheat-sheet-pdf)  
 
 ---
 
