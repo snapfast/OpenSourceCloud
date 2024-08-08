@@ -22,6 +22,8 @@
 Some links
 
 [Cloudflare CDN Reference Architecture](https://developers.cloudflare.com/reference-architecture/architectures/cdn/)
+[Online tutorial for Linux administrators, DevOps, SysOps, and any Linux hobbyists.](https://www.youtube.com/@justmeandopensource)
+[]
 
 ---
 
