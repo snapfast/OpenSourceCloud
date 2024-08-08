@@ -23,8 +23,8 @@ Some links
 
 [Cloudflare CDN Reference Architecture](https://developers.cloudflare.com/reference-architecture/architectures/cdn/)
 [Online tutorial for Linux administrators, DevOps, SysOps, and any Linux hobbyists.](https://www.youtube.com/@justmeandopensource)
-[]
+[Some Cheatsheet Repo](https://github.com/sk3pp3r/cheat-sheet-pdf)
 
 ---
 
-[[Edit Repo]](https://github.com/snapfast/cloud_notes)
+[[Edit this page]](https://github.com/snapfast/cloud_notes)
