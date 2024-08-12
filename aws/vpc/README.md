@@ -2,6 +2,8 @@
 
 #### VPC is a virtual network. Software defined network.
 
-[Domain Name System (DNS)](dns)  
-[Routing - Route 53](routing)  
-[Security](security)  
+[VPC](1-vpc)  
+[Routing - Route 53](2-routing)  
+[Security](3-security)  
+[Connnectivity](4-connectivity)  
+[Domain Name System (DNS)](5-dns)  
