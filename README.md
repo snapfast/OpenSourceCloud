@@ -2,11 +2,17 @@
 
 ---
 
+## Cloud
+
+[AWS](cloud/aws)  
+[GCP](cloud/gcp)   
+
+---
+
+## DevOps Tools (Open Source)
+
 [Ansible](ansible)  
-[AWS](aws)  
 [Content Delivery Network](cdn)  
-[CKA - Kubernetes](cka-kubernetes)  
-[Google Cloud Platform](gcp)   
 [Monitoring](monitoring)   
 [Kubernetes](kubernetes)  
 [Terraform](terraform)  
@@ -14,12 +20,21 @@
 
 ---
 
+## Certification
+
+[CKA - Kubernetes](certification/cka-kubernetes)  
+
+
+---
+
+## Talking about DevOps
+
 [Interview Talk](interview-talk)  
 [a Video about DevOps](https://www.youtube.com/watch?v=0vSKgTGmfUY)  
 
 ---
 
-Some links
+### More links
 
 [Cloudflare CDN Reference Architecture](https://developers.cloudflare.com/reference-architecture/architectures/cdn/)  
 [Online tutorial for Linux administrators, DevOps, SysOps, and any Linux hobbyists.](https://www.youtube.com/@justmeandopensource)  
@@ -27,4 +42,4 @@ Some links
 
 ---
 
-[[Edit this page]](https://github.com/snapfast/cloud_notes)
+#### [[Edit this page]](https://github.com/snapfast/cloud_notes)
