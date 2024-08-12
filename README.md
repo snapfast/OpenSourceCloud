@@ -11,19 +11,35 @@
 
 ## DevOps Tools (Open Source)
 
+### Automation
+
 [Ansible](ansible)  
-[Content Delivery Network](cdn)  
+
+### Monitoring
+
 [Monitoring](monitoring)   
-[Kubernetes](kubernetes)  
+
+### Infrastructure as Code
+
 [Terraform](terraform)  
-[Unix Linux](unix-linux)  
+
+### Orchestration
+
+[Kubernetes](kubernetes)  
+
+### Other Topics
+
+[Content Delivery Network](cdn)  
+
+---
+
+## [Unix Linux](unix-linux)  
 
 ---
 
 ## Certification
 
 [CKA - Kubernetes](certification/cka-kubernetes)  
-
 
 ---
 
