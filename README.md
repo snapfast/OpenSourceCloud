@@ -11,29 +11,24 @@
 
 ## DevOps Tools (Open Source)
 
-### Automation
-
+* Automation
 [Ansible](ansible)  
 
-### Monitoring
-
+* Monitoring
 [Monitoring](monitoring)   
 
-### Infrastructure as Code
-
+* Infrastructure as Code
 [Terraform](terraform)  
 
-### Orchestration
-
+* Orchestration
 [Kubernetes](kubernetes)  
 
-### Other Topics
-
+* Other Topics
 [Content Delivery Network](cdn)  
 
 ---
 
-## [Unix Linux](unix-linux)  
+#### [Unix Linux](unix-linux)  
 
 ---
 
