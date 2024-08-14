@@ -29,6 +29,9 @@ Port on ClusterIP is actual port that is exposed outside.
 ### DaemonSet
 For simulating the client app.
 
+### Architecture
+
+![Cluster Architecture](https://kubernetes.io/images/docs/kubernetes-cluster-architecture.svg "kubernetes")
 
 Read More...  
 
